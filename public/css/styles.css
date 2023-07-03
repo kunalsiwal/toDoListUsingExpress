@@ -8,38 +8,44 @@ body {
 .task-done:checked+li{
     text-decoration: line-through;
     opacity: 50%;
-    text-decoration-color: #23d5ab;
+    text-decoration-color:red;
 }
 
 .lists{
     display: flex;
     width: auto;
-    
-    
+    border: 1px solid black;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 ul{
-    border-radius: 5%;
-    background-color: #23d5ab;
-    padding: 15px;
-    margin-bottom: 0;
+    
+    background-color: white;
+    padding: 0;
+    margin-bottom: 0;   
 }
 .items{
     list-style: none;
     
-    font-size: 2rem;
+    font-size: 1.5rem;
     padding-left: 10px;
-    color: white;
+    color:  #AEC6CF;
+    
 }
 
 .day-header{
     
-    border-radius: 10%;
-    border: 2px solid white; 
+    border-radius: 20%;
+    
     height:auto;
     width: 33.33%;
     color: white;
-    background-color: #23d5ab;
+    background-color: #cc99ff;
     text-align: center;
 }
 
@@ -48,8 +54,8 @@ ul{
     align-items: center;
     justify-content: center;
     padding: 10px;
-    border-radius: 10%;
-    background-color: #ee7752;
+    border: 1px solid black;
+    background-color: white;
 }
 
 .input-tag{
@@ -59,31 +65,36 @@ ul{
     margin-bottom: 0;
     width: 100%;
     border: none;
-    background-color: #ee7752;
+    background-color: white;
 }
+
 
 body{
     display: flex;
     justify-content:center;
     align-items:center;
     flex-direction: column;
-    font-family: 'helvetica neue', Times, serif;
+    font-family: cursive;
     font-size: large;
 }
 
 .add-button{
     align-items: center;
+    font-size: 24px;
+    color: white;
     border-radius: 100%;
     margin-left: 10px;
-    background-color: #23a6d5;
-    border: none;
-    margin-top: 0;
+    background-color: #cc99ff;
+    border: 1px solid black;
+    margin: 0;
 }
 
 ::placeholder{
-    color: white;
+    color: grey;
     opacity: 80%;
     font-size: auto;
+    text-align: center;
+    justify-content: center;
 }
 
 @keyframes gradient {
